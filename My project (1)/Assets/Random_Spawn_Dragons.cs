@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Random_Spawn_Dragons : MonoBehaviour
 {
+    public Transform[] Dragon_Spawn;
+    public GameObject[] enemyPrefabs;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +16,12 @@ public class Random_Spawn_Dragons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            int randEnemy = Random.Range(0, enemyPrefabs.Length);
+            int randSpawnPoints = Random.Range(0, Dragon_Spawn.Length);
+
+            Instantiate(enemyPrefabs[randEnemy], Dragon_Spawn[randSpawnPoints].position, Quaternion.Euler(0,0,180));
+        }
     }
 }
