@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3843044992634840440}
   - component: {fileID: 3843044992634840437}
   - component: {fileID: 3843044992634840436}
-  - component: {fileID: 3843044992634840435}
+  - component: {fileID: 2620742701064188895}
   m_Layer: 0
   m_Name: Red_Dragon
   m_TagString: Untagged
@@ -133,24 +133,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796e19cfc683c7e4a8a207209cbbe07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &3843044992634840435
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &2620742701064188895
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3843044992634840441}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c594956c2aac4384bb40cc1da2b0d0ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Velocidad_Movimiento: 0
+  Puntos_Movimiento:
+  - {fileID: 0}
+  Distancia_Minima: 0
+  Numero_Random: 0
+  SpriteRenderer: {fileID: 0}
