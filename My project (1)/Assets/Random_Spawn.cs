@@ -6,7 +6,7 @@ public class Random_Spawn : MonoBehaviour
 {
     public GameObject[] enemigos;
 
-    public float Tiempo_Respawn = 1;
+    public float Tiempo_Respawn = 0.5f;
 
     public float Repetir_Respawn = 1;
     

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2620742701064188895}
   m_Layer: 0
   m_Name: Red_Dragon
-  m_TagString: Untagged
+  m_TagString: Dragon2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,9 +145,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c594956c2aac4384bb40cc1da2b0d0ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocidad_Movimiento: 0
+  objectToFind: {fileID: 0}
+  Velocidad_Movimiento: 5
   Puntos_Movimiento:
-  - {fileID: 0}
+  - {fileID: 1931554189308446101, guid: df3edde01dfffcc4284d8d4b83bf9446, type: 3}
+  - {fileID: 6593855513068309545, guid: 452607c573373134ab0fcfe284142a2e, type: 3}
+  - {fileID: 5997976403430425857, guid: 2835996f281acf449ac65ca3dca41916, type: 3}
+  - {fileID: 4855542864459006160, guid: aaa1de06d276ab443b28d6bd66d2324d, type: 3}
   Distancia_Minima: 0
-  Numero_Random: 0
-  SpriteRenderer: {fileID: 0}
