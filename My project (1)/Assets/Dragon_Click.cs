@@ -12,6 +12,6 @@ public class Dragon_Click : MonoBehaviour
 
     private void OnMouseDown()
     {
-        gameObject.SetActive(false);       
+        Destroy(gameObject);
     }
 }

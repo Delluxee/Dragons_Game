@@ -5,7 +5,8 @@ using UnityEngine;
 public class Random_Spawn : MonoBehaviour
 {
     public GameObject[] enemigos;
-
+    public GameObject[] spawnPoints;
+ 
     public float Tiempo_Respawn = 0.5f;
 
     public float Repetir_Respawn = 1;
