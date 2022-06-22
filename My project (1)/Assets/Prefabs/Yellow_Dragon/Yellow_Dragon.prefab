@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 8701185031016838875}
   - component: {fileID: -6242283738776809784}
   - component: {fileID: -5684044371820762773}
+  - component: {fileID: -6890527029163344411}
   m_Layer: 0
   m_Name: Yellow_Dragon
-  m_TagString: Untagged
+  m_TagString: Limite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,3 +154,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.38, y: 0.81}
   m_Direction: 0
+--- !u!114 &-6890527029163344411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812364250606699704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbe70deeb58f9340965e50ba2449407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 0}
+  AudioFX: {fileID: 8300000, guid: 35cb78eb5cf56444b9b7bed72e3e591b, type: 3}

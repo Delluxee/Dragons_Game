@@ -14,9 +14,11 @@ GameObject:
   - component: {fileID: 1850390215707384806}
   - component: {fileID: -6820769690868244383}
   - component: {fileID: -2455028590787575775}
+  - component: {fileID: 7986205330711928642}
+  - component: {fileID: -2194321188124933970}
   m_Layer: 0
   m_Name: Red_Dragon
-  m_TagString: Dragon2
+  m_TagString: Limite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,3 +155,29 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.38, y: 0.81}
   m_Direction: 0
+--- !u!114 &7986205330711928642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545812905714021020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbe70deeb58f9340965e50ba2449407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 0}
+  AudioFX: {fileID: 8300000, guid: 35cb78eb5cf56444b9b7bed72e3e591b, type: 3}
+--- !u!114 &-2194321188124933970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545812905714021020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eca5204a8ba67c48a9d59f951ab5833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
