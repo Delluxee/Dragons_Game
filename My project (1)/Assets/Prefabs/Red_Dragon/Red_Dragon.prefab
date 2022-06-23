@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -6820769690868244383}
   - component: {fileID: -2455028590787575775}
   - component: {fileID: 7986205330711928642}
-  - component: {fileID: -2194321188124933970}
+  - component: {fileID: 3593402062513600302}
   m_Layer: 0
   m_Name: Red_Dragon
   m_TagString: Limite
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -6979140636059716173, guid: 69e7d61b7623048439b6a079c5f6d7f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Source: {fileID: 0}
   AudioFX: {fileID: 8300000, guid: 35cb78eb5cf56444b9b7bed72e3e591b, type: 3}
---- !u!114 &-2194321188124933970
+--- !u!114 &3593402062513600302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,6 +178,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2545812905714021020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eca5204a8ba67c48a9d59f951ab5833, type: 3}
+  m_Script: {fileID: 11500000, guid: 99820cdec3f3b8c428af96ffe6d3cb62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Puntaje: 10

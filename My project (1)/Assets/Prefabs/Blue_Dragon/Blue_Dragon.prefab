@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -6504049213960517004}
   - component: {fileID: 7267009112021342078}
   - component: {fileID: 6276944847634389192}
+  - component: {fileID: 7771900478572444826}
   m_Layer: 0
   m_Name: Blue_Dragon
   m_TagString: Limite
@@ -168,3 +169,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Source: {fileID: 0}
   AudioFX: {fileID: 8300000, guid: 35cb78eb5cf56444b9b7bed72e3e591b, type: 3}
+--- !u!114 &7771900478572444826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2474953264951352410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99820cdec3f3b8c428af96ffe6d3cb62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Puntaje: 20

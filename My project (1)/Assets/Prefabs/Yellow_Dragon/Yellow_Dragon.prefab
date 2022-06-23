@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -6242283738776809784}
   - component: {fileID: -5684044371820762773}
   - component: {fileID: -6890527029163344411}
+  - component: {fileID: 8987275265065372770}
   m_Layer: 0
   m_Name: Yellow_Dragon
   m_TagString: Limite
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -1578951475561628098, guid: 01504799835be464bb5047340c8abc56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -168,3 +169,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Source: {fileID: 0}
   AudioFX: {fileID: 8300000, guid: 35cb78eb5cf56444b9b7bed72e3e591b, type: 3}
+--- !u!114 &8987275265065372770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812364250606699704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99820cdec3f3b8c428af96ffe6d3cb62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Puntaje: 30
