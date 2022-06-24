@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class Dragon_Click : MonoBehaviour
 {
-
+    public GameObject[] Heart;
+    public int life;
     // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     private void OnMouseDown()
     {

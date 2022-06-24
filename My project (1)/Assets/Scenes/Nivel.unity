@@ -686,7 +686,6 @@ GameObject:
   - component: {fileID: 1049315371}
   - component: {fileID: 1049315370}
   - component: {fileID: 1049315373}
-  - component: {fileID: 1049315374}
   m_Layer: 0
   m_Name: Limite
   m_TagString: Dragon
@@ -767,24 +766,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84db60dcceeeb2e40aaea44dee0d0a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1049315374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049315369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b587232e1737fc14c84303af7a8147bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hearts:
+  Health:
   - {fileID: 595770859}
   - {fileID: 2072072707}
   - {fileID: 964275213}
   life: 3
-  enemy:
+  Dragon:
   - {fileID: 2474953264951352410, guid: f88219c721c3b2242bd23be933a77186, type: 3}
   - {fileID: 2545812905714021020, guid: d28cb51c888948e4b9ae580c8cfe25e3, type: 3}
   - {fileID: 812364250606699704, guid: dd74981ec3605f346aeb09fca13b7aec, type: 3}
@@ -1114,6 +1101,7 @@ MonoBehaviour:
   - {fileID: 2545812905714021020, guid: d28cb51c888948e4b9ae580c8cfe25e3, type: 3}
   - {fileID: 2474953264951352410, guid: f88219c721c3b2242bd23be933a77186, type: 3}
   - {fileID: 812364250606699704, guid: dd74981ec3605f346aeb09fca13b7aec, type: 3}
+  - {fileID: 6074813608047191227, guid: d93079302ba696b46865268ddb7ae584, type: 3}
   spawnPoints: []
   Tiempo_Respawn: 0.5
   Repetir_Respawn: 1
