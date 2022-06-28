@@ -16,9 +16,41 @@ public class Random_Spawn : MonoBehaviour
     public Transform XRangeLeft_3;
     public Transform XRangeLeft_4;
 
+    public float difficultyTime = 0;
+
     private void Start()
     {
-        InvokeRepeating("SpawnEnemigos", Tiempo_Respawn, Repetir_Respawn);
+        //InvokeRepeating("SpawnEnemigos", Tiempo_Respawn, Repetir_Respawn);
+        StartCoroutine("EnemyDifficulty");
+    }
+
+    private void Update()
+    {
+        difficultyTime += Time.deltaTime;
+
+        if(difficultyTime > 10 && difficultyTime < 20)
+        {
+            Repetir_Respawn = 2;
+        }
+        if(difficultyTime > 20 && difficultyTime < 30)
+        {
+            Repetir_Respawn = 1;
+        }
+        if(difficultyTime > 30 && difficultyTime < 50)
+        {
+            Repetir_Respawn = 0.75f;
+        }
+        if(difficultyTime > 50)
+        {
+            Repetir_Respawn = 0.25f;
+        }
+    }
+
+    IEnumerator EnemyDifficulty()
+    {
+        yield return new WaitForSeconds(Repetir_Respawn);
+        SpawnEnemigos();
+        StartCoroutine("EnemyDifficulty");  
     }
 
     public void SpawnEnemigos()

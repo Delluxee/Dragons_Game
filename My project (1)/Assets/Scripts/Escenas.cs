@@ -9,5 +9,12 @@ public class Escenas : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel");
     }
-  
+    public void Return()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void Reglas()
+    {
+        SceneManager.LoadScene("Reglas");
+    }
 }

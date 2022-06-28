@@ -10,7 +10,11 @@ public class Dragon_Click : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Destroy(gameObject);
+        life--;
+        if(life < 0)
+        {
+            Destroy(gameObject);
+        }       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,5 +23,5 @@ public class Dragon_Click : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
+    }   
 }
