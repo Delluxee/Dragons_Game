@@ -5,17 +5,10 @@ using UnityEngine;
 public class Dragon_Click : MonoBehaviour
 {
     public GameObject[] Heart;
-    public int life;
-    // Start is called before the first frame update
+    public int VidaEnemigo;
+    public Animator animacion;
 
-    private void OnMouseDown()
-    {
-        life--;
-        if(life < 0)
-        {
-            Destroy(gameObject);
-        }       
-    }
+    // Start is called before the first frame update
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,5 +16,18 @@ public class Dragon_Click : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }   
+    }
+
+    private void OnMouseDown()
+    {
+        if (VidaEnemigo <= 0)
+        {
+            animacion.SetBool("Explosion", true);
+        }
+    }
+    public void MyOnDestroy()
+    {
+        Destroy(gameObject);
+    }
 }
+

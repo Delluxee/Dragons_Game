@@ -30,19 +30,19 @@ public class Random_Spawn : MonoBehaviour
 
         if(difficultyTime > 10 && difficultyTime < 20)
         {
-            Repetir_Respawn = 2;
+            Repetir_Respawn = 3;
         }
         if(difficultyTime > 20 && difficultyTime < 30)
         {
-            Repetir_Respawn = 1;
+            Repetir_Respawn = 2;
         }
         if(difficultyTime > 30 && difficultyTime < 50)
         {
-            Repetir_Respawn = 0.75f;
+            Repetir_Respawn = 1;
         }
         if(difficultyTime > 50)
         {
-            Repetir_Respawn = 0.25f;
+            Repetir_Respawn = 0.75f;
         }
     }
 
