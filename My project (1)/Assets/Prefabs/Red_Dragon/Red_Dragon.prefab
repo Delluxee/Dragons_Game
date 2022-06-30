@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 6240621865514747795}
   - component: {fileID: 6240621865514747794}
   - component: {fileID: 6240621865514747793}
-  - component: {fileID: 6240621865514747792}
   m_Layer: 0
   m_Name: Red_Dragon
   m_TagString: Limite
@@ -138,10 +137,11 @@ MonoBehaviour:
   objectToFind: {fileID: 0}
   Velocidad_Movimiento: 5
   Puntos_Movimiento:
-  - {fileID: 1931554189308446101, guid: df3edde01dfffcc4284d8d4b83bf9446, type: 3}
-  - {fileID: 6593855513068309545, guid: 452607c573373134ab0fcfe284142a2e, type: 3}
-  - {fileID: 5997976403430425857, guid: 2835996f281acf449ac65ca3dca41916, type: 3}
-  - {fileID: 4855542864459006160, guid: aaa1de06d276ab443b28d6bd66d2324d, type: 3}
+  - {fileID: 6945133561385282209, guid: aaa1de06d276ab443b28d6bd66d2324d, type: 3}
+  - {fileID: 433441652146896549, guid: df3edde01dfffcc4284d8d4b83bf9446, type: 3}
+  - {fileID: 5476983839645236891, guid: 452607c573373134ab0fcfe284142a2e, type: 3}
+  - {fileID: 3837902992428484665, guid: 2835996f281acf449ac65ca3dca41916, type: 3}
+  - {fileID: 2838533934020874879, guid: 3571cfd78d446464f914f6b26739cf59, type: 3}
   Distancia_Minima: 1
 --- !u!70 &6240621865514747795
 CapsuleCollider2D:
@@ -185,17 +185,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99820cdec3f3b8c428af96ffe6d3cb62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puntaje: 10
---- !u!114 &6240621865514747792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6240621865514747759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fb6300635e4554987e58c2a944b2ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  VidaEnemigo: 0
+  Puntaje: 20
+  vida_Enemigo: 0

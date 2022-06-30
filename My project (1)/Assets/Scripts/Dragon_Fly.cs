@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Dragon_Fly : MonoBehaviour
 {
-    public GameObject objectToFind;
-    string tagName = "Dragon";
-    string tagName2 = "Dragon2";
-    string tagName3 = "Dragon3";
+   public GameObject objectToFind;
+   string tagName = "Dragon";
+   string tagName2 = "Dragon2";
+   string tagName3 = "Dragon3";
 
     [SerializeField] private float Velocidad_Movimiento;
     [SerializeField] private Transform[] Puntos_Movimiento;

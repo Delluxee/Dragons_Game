@@ -5,10 +5,19 @@ using UnityEngine;
 public class AgregarPuntaje : MonoBehaviour
 {
     public int Puntaje = 20;
+    public int vida_Enemigo;
 
     private void OnMouseDown()
     {
-        GameControler.Score += Puntaje;
+        if(tag == "Limite")
+        {
+            vida_Enemigo--;
+            if(vida_Enemigo <= 0)
+            {
+                Destroy(gameObject,2f);
+                GameControler.Score += Puntaje;
+            }
+        }       
     }
     // Start is called before the first frame update
     void Start()
