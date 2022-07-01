@@ -22,7 +22,11 @@ public class Dragon_Click : MonoBehaviour
     {
         if (VidaEnemigo <= 0)
         {
+            Destroy(gameObject, 1f);
+            GetComponent<CapsuleCollider2D>().enabled = false;
+            GetComponent<Dragon_Fly>().enabled = false;
             animacion.SetBool("Explosion", true);
+
         }
     }
     public void MyOnDestroy()

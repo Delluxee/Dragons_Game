@@ -28,23 +28,23 @@ public class Random_Spawn : MonoBehaviour
     {
         difficultyTime += Time.deltaTime;
 
-        if(difficultyTime > 10 && difficultyTime < 20)
+        if(difficultyTime > 10 && difficultyTime < 15)
         {
-            Repetir_Respawn = 3;
+            Repetir_Respawn = 1.5f;
         }
-        if(difficultyTime > 20 && difficultyTime < 30)
+        if(difficultyTime > 15 && difficultyTime < 20)
         {
-            Repetir_Respawn = 2;
+            Repetir_Respawn = 1.25f;
         }
-        if(difficultyTime > 30 && difficultyTime < 40)
+        if(difficultyTime > 20 && difficultyTime < 25)
         {
             Repetir_Respawn = 1;
         }
-        if(difficultyTime > 40 && difficultyTime < 50)
+        if(difficultyTime > 25 && difficultyTime < 30)
         {
             Repetir_Respawn = 0.75f;
         }
-        if(difficultyTime > 60)
+        if(difficultyTime > 30)
         {
             Repetir_Respawn = 0.25f;
         }
